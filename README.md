@@ -28,3 +28,4 @@ gcloud run deploy --image gcr.io/$PROJECTID/shinyrun --platform managed --max-in
 # for project with large memory need
 # gcloud run deploy --image gcr.io/$PROJECTID/shinyrun --platform managed --max-instances 1 --memory 1G
 ```
+# recommender-shiny-on-cloudrun
