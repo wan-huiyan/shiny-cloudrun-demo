@@ -1,6 +1,0 @@
-GCE_DEFAULT_PROJECT_ID="mightyhive-data-science-poc"
-GCS_DEFAULT_BUCKET="cloudrunner-test"
-CR_REGION="europe-west1"
-CR_BUILD_EMAIL=cloudrun-shinyapp-huiyan@mightyhive-data-science-poc.iam.gserviceaccount.com
-GAR_CLIENT_JSON=/home/huiyan/cloudrunner_test/client_secret_795435080125-mtn70nb0mvd89t1egvk3hsv5u2rnpsn9.json
-GCE_AUTH_FILE=/home/huiyan/cloudrunner_test/mightyhive-data-science-poc-2151533e7073.json
