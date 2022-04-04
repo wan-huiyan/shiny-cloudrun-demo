@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 ## Install packages from CRAN
 RUN install2.r --error \
     -r 'http://cran.rstudio.com' \
-    data.table httr jsonlite plyr shiny
+    data.table lubridate knitr kableExtra DT fst formattable httr jsonlite plyr shiny shinydashboard shinyWidgets shinybusy plotly 
     
 COPY app.R /srv/shiny-server/app.R
 
