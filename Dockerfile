@@ -1,4 +1,4 @@
-FROM rocker/shiny
+FROM rocker/tidyverse
 
 # install R package dependencies
 RUN apt-get update && apt-get install -y \
@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 ## Install packages from CRAN
 RUN install2.r --error \
     -r 'http://cran.rstudio.com' \
-    googleAuthR searchConsoleR data.table httr jsonlite fst plyr tidyverse
+    data.table httr jsonlite plyr shiny
     
 COPY app.R /srv/shiny-server/app.R
 
